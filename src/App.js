@@ -10,6 +10,11 @@ function App() {
   const [city, setCity] = useState("New Delhi");
   const [doesStateChanged, changeState] = useState(false);
 
+  document.onkeydown = (event) => {
+    if(event.key === "Enter")
+    onClickHandeler();
+  }
+
 
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=d2e45462759bfd80250464f44fba4483&&units=metric";
   useEffect(() => {
