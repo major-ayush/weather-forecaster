@@ -7,7 +7,7 @@ function App() {
 
   const [weatherData, setWeatherData] = useState({});
   const [hasError, setError] = useState(false);
-  const [city, setCity] = useState("Mumbai");
+  const [city, setCity] = useState("New Delhi");
   const [doesStateChanged, changeState] = useState(false);
 
 
