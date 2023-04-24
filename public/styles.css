@@ -1,0 +1,87 @@
+body{
+    background-image: url("cloudImage1.jpg");
+    background-size: 100%;
+}
+*{
+    margin : 0;
+    padding :0;
+}
+h1{
+    text-align: center;
+    color: #060047;
+    font-size: 100px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px #8EA7E9;
+}
+
+
+
+input, button{
+    display : block;
+}
+
+input {
+    height: 35px;
+    width : 450px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #FFFFE8;
+    border : 2px solid #060047;
+}
+button{
+    height : 35px;
+    width : 150px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top : 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #060047;
+    color : white;
+}
+
+.input-button{
+    display: inline-block;
+    position: relative;
+    left : 35%;
+}
+
+.forecastBox{
+    background-image: url("cloudImage3.jpg");
+    background-size: 150%;
+    
+    color : black;
+    width : 500px;
+    margin : auto;
+    margin-top : 40px;
+    padding : 20px;
+    text-align: center;
+    border-radius: 10px;
+    border : 5px solid #579BB1;
+
+    font-size: 20px;
+}
+
+h2{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color : #2E0249;
+}
+
+.not-found{
+    background-image: url("cloudImage3.jpg");
+    background-size: 150%;
+    
+    color : black;
+    width : 500px;
+    margin : auto;
+    margin-top : 40px;
+    padding : 20px;
+    text-align: center;
+    border-radius: 10px;
+    border : 5px solid #579BB1;
+
+    font-size: 20px;
+}
+
